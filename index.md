@@ -1,37 +1,25 @@
-## QA Automation Page! 
+# Pruebas Automatizadas 
 
-You can use the [editor on GitHub](https://github.com/QA-Automation-YT/QA-Automation-YT.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Guía rápida y sencilla de Ejecución de Pruebas de Chattigo ;)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Marcas de los tests
 
-### Markdown
+### Marcas Generales
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **critical**: Pruebas críticas que NO pueden fallar en producción. 
+- **smoke**: Pruebas básicas que deben funcionar si o sí para empezar a probar un determinado flujo
+- **back**: Pruebas a nivel de API y WebSockets, son las pruebas mas rápidas que se pueden ejecutar
+- **web**: Pruebas a nivel del Frontend de la Aplicación, son pruebas desde el punto de vista del usuario de la plataforma.
 
-```markdown
-Syntax highlighted code block
+### Pruebas del Agente
+[Repositorio](https://github.com/chattigodev/automation-agente)
+- **chat**: Pruebas correpondientes a las funcionalidades que interactuan con un chat
+- **login**: Pruebas relacionadas con el login en la plataforma
+- **states**: Pruebas relacionadas con los estados del agente (online, descanso, etc.)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QA-Automation-YT/QA-Automation-YT.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Pruebas de los Canales
+[Repositorio](https://github.com/chattigodev/automation-canales)
+- **webchat**: Pruebas del webchat
+- **whatsapp**: Pruebas de WhatsApp
+- **messenger**: Pruebas de Messenger
+- **facebook**: Pruebas de Facebook Muro
