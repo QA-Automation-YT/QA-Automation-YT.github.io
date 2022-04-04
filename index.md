@@ -44,10 +44,10 @@ Se nos desplegará un pequeño formulario con los siguientes campos:
 
 Hacer click en **run workflow** y LISTO!✅
 
-## Ver Reporte de las pruebas 🚀
-1. **Opción 1**: Entrar a la ejecución del workflow → Ir al step llamado _Link Reporte_📌 → Click en el Link mostrado (estar conectado a la VPN)
-2. **Opción 2**: Entrar a Discord → Ir al canal llamado #automation_tests → Buscar la ejecución y hacer click en _acá_
-3. **Opción 3**: (Únicamente si dejamos la ejecución en JIRA) Ir a Zepyhr Scale → Ejecuciones → Pruebas Automatizadas → Funcionalidad → Ejecución (_fecha y hora_) → Ir a la descripción de la ejecución y obtener el Link.
+### Ver Reporte de las pruebas 🚀
+- **Opción 1**: Entrar a la ejecución del workflow → Ir al step llamado _Link Reporte_📌 → Click en el Link mostrado (estar conectado a la VPN)
+- **Opción 2**: Entrar a Discord → Ir al canal llamado #automation_tests → Buscar la ejecución y hacer click en _acá_
+- **Opción 3**: (Únicamente si dejamos la ejecución en JIRA) Ir a Zepyhr Scale → Ejecuciones → Pruebas Automatizadas → Funcionalidad → Ejecución (_fecha y hora_) → Ir a la descripción de la ejecución y obtener el Link.
 
 
 ![Test Runner](https://docs.github.com/assets/cb-22017/images/actions-manually-run-workflow.png)
