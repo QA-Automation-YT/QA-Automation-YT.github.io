@@ -2,7 +2,7 @@
 
 Guía rápida y sencilla de Ejecución de Pruebas de Chattigo 😉
 
-## Marcas de los tests 🔖
+## Marcas de las pruebas 🔖
 
 Las marcas especifican la funcionalidad, el nivel o la criticidad de cada prueba. 
 
@@ -21,10 +21,10 @@ Las marcas especifican la funcionalidad, el nivel o la criticidad de cada prueba
 
 ### Marcas para pruebas de los Canales 🔖
 [Repositorio](https://github.com/chattigodev/automation-canales)
-- **webchat**: Pruebas del webchat
-- **whatsapp**: Pruebas de WhatsApp
-- **messenger**: Pruebas de Messenger
-- **facebook**: Pruebas de Facebook Muro
+- **webchat**: Pruebas del webchat.
+- **whatsapp**: Pruebas de WhatsApp.
+- **messenger**: Pruebas de Messenger.
+- **facebook**: Pruebas de Facebook Muro.
 
 ### Marcas para pruebas del Supervisor 🔖
 [Repositorio](https://github.com/chattigodev/automation-supervisor)
@@ -32,21 +32,22 @@ Las marcas especifican la funcionalidad, el nivel o la criticidad de cada prueba
 - **kpi**: Pruebas del Dashboard de KPI's (Chats cerrados, chat activos por agente, etc.)
 - **monitor**: Pruebas relacionadas al monitoreo del agente (chats asignados, etc.) 
 
-## Ejecución de los tests 🚀
+## Ejecución de las pruebas 🚀
 
-Dentro de cada Repositorio (agente, canales, etc.) ir a la sección **Actions** -> **Workflows** -> **Ejecutor de pruebas** -> **Run Workflow**
+Dentro de cada Repositorio (agente, canales, etc.) ir a la sección **Actions** → **Workflows** → **Ejecutor de pruebas** → **Run Workflow**
 
 Se nos desplegará un pequeño formulario con los siguientes campos:
 
-- **Ambiente**: El ambiente dónde queremos correr las pruebas _leones, tigres, panteras, lobos_. OBLIGATORIO❗
-- **Marcas**: Las marcas que deseamos ejecutar. Si no se especifica ninguna se ejecutan el 100% de las pruebas de ese repositorio
-- **Enviar ejecución a Jira**: Si deseamos que se guarde la ejecución en JIRA Zephyr. (_true/false_)
+- **Ambiente**: El ambiente dónde queremos correr las pruebas → _leones, tigres, panteras, lobos_. OBLIGATORIO❗
+- **Marcas**: Las marcas que deseamos ejecutar. Si no se especifica ninguna se ejecutará el 100% de las pruebas de ese repositorio
+- **Enviar ejecución a Jira?**: Si deseamos que se guarde la ejecución en JIRA Zephyr o no. → _true, false_
 
 Hacer click en **run workflow** y LISTO!✅
 
-Si entramos al workflow se nos muestra en tiempo real la ejecución del mismo. Una vez finalizada la ejecución podemos ir al paso llamado _Link Reporte_📌 y se nos mostrará un link al que podremos acceder para visualizar el Reporte de Allure con el status de las pruebas (_imporante estar conectado a la VPN!_)
-
-También podremos acceder al reporte desde el canal de Discord: _automation_tests_ una vez finalizado el workflow.
+## Ver Reporte de las pruebas 🚀
+1. **Opción 1**: Entrar a la ejecución del workflow → Ir al step llamado _Link Reporte_📌 → Click en el Link mostrado (estar conectado a la VPN)
+2. **Opción 2**: Entrar a Discord → Ir al canal llamado #automation_tests → Buscar la ejecución y hacer click en _acá_
+3. **Opción 3**: (Únicamente si dejamos la ejecución en JIRA) Ir a Zepyhr Scale → Ejecuciones → Pruebas Automatizadas → Funcionalidad → Ejecución (_fecha y hora_) → Ir a la descripción de la ejecución y obtener el Link.
 
 
 ![Test Runner](https://docs.github.com/assets/cb-22017/images/actions-manually-run-workflow.png)
